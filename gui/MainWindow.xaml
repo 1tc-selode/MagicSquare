@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
             <Label Content="Válasszon egy sorszámot" Margin="10"/>
-            <ComboBox x:Name="IndexComboBox" Margin="10"/>
+            <ComboBox x:Name="IndexComboBox" Margin="10" SelectionChanged="IndexComboBox_SelectionChanged"/>
             <Button x:Name="ellenorzesButton" Click="ellenrozesButton_Click" Content="Ellenőrzés" Margin="10"/>
         </StackPanel>
         <Border Grid.Column="1" BorderThickness="1" Margin="10" BorderBrush="Black">
